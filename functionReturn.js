@@ -24,6 +24,8 @@ function subtraction(x,y)
 }
 console.log(subtraction(90,45));
 
+//ex3
+
 var fn1=function(name,age){
     return `My name is${name}. & my age is ${age}`;
 }

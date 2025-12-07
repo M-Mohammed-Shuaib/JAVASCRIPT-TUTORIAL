@@ -1,0 +1,26 @@
+<h1 id="h1">Hello World</h1>
+<button onclick="change()">Change</button>
+
+<script>
+    //selecting h1 tag
+    var h1=document.getElementById("h1")
+    console.log(h1.textContent)
+    //h1.textcontent="bye world" to change the hello world to bye world but will not use this as we're using onclick events
+    
+    function change()
+    {
+        h1.textContent="Bye World"
+    }
+</script>
+
+<!--Exercise 2-->
+
+<p id="subtitle"> Hello</p>
+<button onclick="changeword()">Click</button>
+
+<script>
+    function changeword()
+    {
+    document.getElementById("subtitle").textContent="bye"
+    }
+</script>
