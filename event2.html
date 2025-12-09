@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="style.css" />
+<div><<form id="form">
+<!--next exercise-->
+<h1>Multiplication</h1>
+<br />
+<br />
+Num 1 <input class="one" type="number" id="num1" placeholder="Enter First Number" value />
+<br />
+<br />
+Num 2 <input class="two"type="number" id="num2" placeholder="Enter Second Number" value />
+<br />
+<br />
+<button onclick="resfunction()">Multiply</button>
+<p id="result"></p>
+
+
+<script>
+  //select input box1 and box2
+  var mul1 = document.getElementById("num1");
+  var mul2 = document.getElementById("num2");
+  //select the result
+  var result = document.getElementById("result");
+
+  function resfunction() {
+    //number() is used to convert the value from string to numbers
+    var mul1value = Number(mul1.value);
+    console.log("num1", mul1value);
+    if (mul1) {
+      console.log("awesome number brother");
+    }
+    var mul2value = Number(mul2.value);
+    console.log("total", mul2value);
+    var total = mul1value * mul2value;
+    console.log("total", total);
+    result.textContent = "Multiplication of two number is:" + total;
+  }
+</script>
+</form>
+</div>

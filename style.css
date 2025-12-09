@@ -1,0 +1,33 @@
+#form{
+    text-align: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+.one{
+    color:blue;
+    background-color: burlywood;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid black;
+
+}
+.two{
+    color:green;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid black;
+}
+button{
+    color: white;
+    background-color: orange;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+}
