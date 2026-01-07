@@ -1,0 +1,36 @@
+<div id="one">
+    <h1>Hello</h1>
+
+</div>
+
+<script>
+
+    var div=document.getElementById("one")
+    div.innerHTML="<h1>Bye</h1>"
+</script>
+
+<!--Query selector it can used to select class, id and even a tag-->
+
+<div class="one">
+
+    <script>
+
+        var div=document.querySelector(".one")
+        console.log(div)
+    </script>
+</div>
+
+<!--another example for selecting h1 tag-->
+<h1 class="ok">one</h1>
+<h1 class="ok">two</h1>
+<h1 class="ok">Three</h1>
+
+<script>
+    //div select
+    var div=document.querySelectorAll(".ok")
+    for(var count=0; count<div.length; count=count+1)
+{
+    console.log(div[count].textContentgi)
+}
+</script>
+

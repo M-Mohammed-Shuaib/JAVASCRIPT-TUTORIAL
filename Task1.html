@@ -1,0 +1,16 @@
+<input id="inputbox" onkeyup="retrieve()">
+<button onclick="retrieve()">Btn</button>
+
+<h1 id="result"></h1>
+
+<script>
+    //select input box and h1
+    var inputbox = document.getElementById("inputbox")
+    var result = document.getElementById("result")
+
+    function retrieve()
+    {
+        result.textContent = inputbox.value
+
+    }
+</script>

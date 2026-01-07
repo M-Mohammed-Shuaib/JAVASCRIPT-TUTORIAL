@@ -1,0 +1,15 @@
+<h1 id="result">Name</h1>
+<button onclick="retrieve(event)">Shuaib</button>
+<button onclick="retrieve(event)">Usman</button>
+<button onclick="retrieve(event)">Sabil</button>
+
+
+<script>
+    //select h1 tag
+    var h1=document.getElementById("result")
+
+    function retrieve(event)
+    {
+        h1.textContent=event.target.textContent
+    }
+</script>
